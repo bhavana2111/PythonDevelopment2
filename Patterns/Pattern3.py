@@ -13,3 +13,22 @@ for i in range(1, input1+1):
     for i in range(1,input2+1):
         print(i,end="")
     print()
+
+
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+#10 9 8 7 6 5 4 3 2 1
+
+input1 = int(input("Enter the number of rows"))
+
+for i in range(1, input1+1):
+    for j in range(1, input1+1):
+        print(input1-j+1,end=" ")
+    print()
